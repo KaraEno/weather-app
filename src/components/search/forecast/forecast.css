@@ -1,0 +1,32 @@
+.daily-item{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    box-sizing: border-box !important;
+    padding: 20px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+              0 2px 2px rgba(0,0,0,0.11), 
+              0 4px 4px rgba(0,0,0,0.11), 
+              0 6px 8px rgba(0,0,0,0.11),
+              0 8px 16px rgba(0,0,0,0.11);
+}
+.icon-small{
+    width: 40px;
+}
+.label-div{
+    /* border: 1px solid green; */
+    padding: 3px 20px;
+    box-sizing: border-box;
+    width: 150px;
+}
+.daily-details-grid{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid blue; */
+    padding: 20px 10px;
+    box-sizing: border-box !important;
+}
